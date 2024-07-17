@@ -16,18 +16,26 @@ def ping_ip(ip):
         return False
 
 def scan_network(network):
+    """
+    oulalala faudrait pas scanner ce villain reseau quand meme hihihi
+    """
     return [str(ip) for ip in ip.IPv4Network(network) if ping_ip(str(ip))]
 
 def main():
+    """
+    oupsie
+    """
     load_dotenv()
+    
     network = os.getenv("NETWORK_RANGE")
     active_ips = scan_network(network)
+    ip_dict = {i + 1: ip for i, ip in enumerate(active_ips)}
 
     chemin = "results/real"
     if not os.path.exists(chemin):
         os.makedirs(chemin)
     with open(os.path.join(chemin, "ips.json"), "w") as f:
-        json.dump(active_ips, f)
+        json.dump(ip_dict, f, indent=4)
 
     print("Scan terminé")
 

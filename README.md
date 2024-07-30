@@ -1,6 +1,6 @@
 # List python adresses 
 ![Static Badge](https://img.shields.io/badge/On%20Date-True-green?style=plastic&logoColor=blue)
->Le script est lent a run, complexité caca ? peut-etre 🧙🏼
+>Le script est lent a run, complexité pourrie ? peut-etre 🧙🏼
 
 ## Description
 Ce projet scan votre reseau (si vos firewalls l'autorise 🤯) et retourne une comprehension list de toutes les adresses ip sur le reseau dans un fichier json. 

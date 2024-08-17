@@ -19,7 +19,7 @@ pip install python-dotenv
 
 - Créez un fichier .env dans la racine du projet
 - Dans .env, créez la variable **NETWORK_RANGE** par rapport a votre réseau
-- Dans 80% des cas : ```NETWORK_RANGE=192.168.1.0/24```
+- La plupart des cas : ```NETWORK_RANGE=192.168.1.0/24```
 
 ## Execution 
 ```

@@ -1,4 +1,4 @@
-# List python adresses 
+# List ip adresses using python
 ![Static Badge](https://img.shields.io/badge/On%20Date-True-green?style=plastic&logoColor=blue)
 >Le script est lent a run, complexité pourrie ? peut-etre 🧙🏼
 
